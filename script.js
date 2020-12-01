@@ -2,10 +2,10 @@
     
 document.getElementById("run").addEventListener("click", function(){
 
-    var key = '8d07c7290ddb4e174c1a5afa37c708b4';
+    var key = '40fa2b86a012472b917084a043e9cbd1';
     var city = "gent";
     
-    fetch('https://api.openweathermap.org/data/2.5/weather?q='+ city + '&appid=' + key)
+    fetch('https://api.weatherbit.io/v2.0/forecast/daily?city=' + city +'&key='+ key)
      
     .then(response => {
         console.log (response); 
@@ -19,3 +19,4 @@ document.getElementById("run").addEventListener("click", function(){
 
 
 })
+
