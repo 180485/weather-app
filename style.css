@@ -1,15 +1,8 @@
 
-  
- @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
-
  
  
  body {
-   display: grid;
-   justify-content: center;
-   align-items: center;
-   font-family: "Luckiest Guy", cursive;
-   margin: 50px;
+   text-align: center;
    background: radial-gradient(
      circle,
      rgb(88, 218, 218) 0%,
@@ -20,7 +13,7 @@
  }
  
  h1 {
-   margin: 0;
+   font-family: 'Righteous', cursive;
    font-size: 5em;
    padding: 0;
    color: white;
@@ -65,7 +58,40 @@
    }
  }
  
- .dates {
-   display :grid;
+
+ h4{
+   font-size: 50px;
+   font-family: 'Righteous', cursive;
+
+ }
+
+
+
+
+ #info{
+  line-height: 0.2;
+   font-size: 50px;
+   font-family: 'Righteous', cursive;
+   color: white;
+   text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+     0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+     0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+     -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
+     
+ }
+
+ #city {
+  font-family: 'Righteous', cursive;
+   
+ }
+ 
+
+ .dates{
+   display:grid;
    grid-template-columns: auto auto auto auto auto;
+   margin-top:80px;
+   grid-gap:10px;
+   font-size: 20px;
+   box-sizing: border-box;
+  
  }
