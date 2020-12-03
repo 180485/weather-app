@@ -65,7 +65,9 @@
 
  }
 
-
+h4{
+  font-size: 30px;
+}
 
 
  #info{
@@ -89,9 +91,21 @@
  .dates{
    display:grid;
    grid-template-columns: auto auto auto auto auto;
-   margin-top:80px;
    grid-gap:10px;
    font-size: 20px;
    box-sizing: border-box;
   
+ }
+
+
+ .wrapper{
+   width: 500px;
+   height: 500px;
+   margin: auto;
+   
+   
+ }
+
+ p{
+   font-size: 20px;
  }
