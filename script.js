@@ -21,15 +21,9 @@
              console.log(data)
 
         //getting today/now forecast
-
-         
-             var today = data.data[0].temp;
+            var today = data.data[0].temp;
             var info =  data.data[0].weather.description;
             console.log(info);
-
-
-
-
 
             console.log (today);
             document.getElementById("output").innerHTML =  city ;
@@ -56,11 +50,11 @@
             document.getElementById("text3").innerHTML =  info ;
 
        
-            document.getElementById("dayfour").innerHTML =  dayFour + "°c" ;
+            document.getElementById("dayfour").innerHTML =  dayFour+ " "+ "°c" ;
             document.getElementById("text4").innerHTML =  info ;
 
         
-            document.getElementById("dayfive").innerHTML =  dayFive + "°c" ;
+            document.getElementById("dayfive").innerHTML =  dayFive + " "+ "°c" ;
             document.getElementById("text5").innerHTML =  info;  
    
             
@@ -83,7 +77,7 @@
         options: {
           title: {
             display: true,
-            text: 'The 5 days Weather'
+            text: 'Chart 5 days Weather'
           },
           legend: { display: false }
         }
