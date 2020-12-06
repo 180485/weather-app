@@ -1,6 +1,8 @@
  //TODO: get 5 dates 
  //TODO: CSS for chart
  //TODO: show image accordingly
+
+
  
  
  
@@ -75,7 +77,7 @@
           datasets: [{
               label: "5 Days Weather",
               type: "line",
-              borderColor: "#DDA0DD	",
+              borderColor: "mediumvioletred",
               data: [dayOne,dayTwo,dayThree,dayFour,dayFive],
               fill: false
             }
