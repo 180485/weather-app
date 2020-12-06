@@ -25,7 +25,7 @@ In this challenge you will use and consolidate your knowledge on:
 * Made with Visual Studio Code
 * HTML , CSS & Vanilla Javascript
 * API: https://www.weatherbit.io/
-* Chart: Chart.js
+* Chart: https://www.chartjs.org/
 
 
 # Result
