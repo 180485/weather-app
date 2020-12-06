@@ -1,122 +1,102 @@
-
- 
- 
- body {
+body{
+  background-image: url(bg.jpg);
+  background-size: cover;
   
-   background-image: url(bg.jpg);
-   background-repeat: repeat-x;
-   background-position: 
-    0 20%,
-    0 100%,
-    0 50%,
-    0 100%,
-    0 0;
-  background-size: 
-    2500px,
-    800px,
-    500px 200px,
-    1000px,
-    400px 260px;
-  animation: 50s para infinite linear;
-  }
-
-@keyframes para {
-  100% {
-    background-position: 
-      -5000px 20%,
-      -800px 95%,
-      500px 50%,
-      1000px 100%,
-      400px 0;
-    }
-  }
-  
-   
- 
-
- .content {
-  background-color:hsla(0, 0%, 100%, 0.8);
-  border-radius:.25em;
-  box-shadow:20px 20px 30px -10px #192824;
-  box-sizing:border-box;
-  left:50%;
-  padding:30px;
-  position:fixed;
-  text-align:center;
-  top:50%;
-  transform:translate(-50%, -50%);
 }
  
+  
+ .main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:hsla(0, 0%, 100%, 0.8);
+  box-shadow:20px 20px 30px -10px #192824;
+  box-sizing:border-box;
+  padding: auto;
+  margin: 80px;
+  margin-left:40px;
+ 
+ }
+ 
  h1 {
-   margin-top: 150px;
+   margin-top:50px;
    font-family: 'Righteous', cursive;
-   font-size: 5em;
+   font-size: 60px;
    padding: 0;
-   color: white;
+   color:#D8BFD8;
    text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
-     0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
-     0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
-     -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
-     }
-     
-     span {
-     transform: scale(0.9);
-     display: inline-block;
+   0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+   0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+   -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
    }
    
-   span:first-child {
-     animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
-       alternate;
-   }
-   span:last-child {
-     animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards
-       infinite alternate;
-   }
- 
- 
- @keyframes bop {
-   0% {
-     transform: scale(0.9);
-   }
-   50%,
-   100% {
-     transform: scale(1);
-   }
+   span {
+   transform: scale(0.9);
+   display: inline-block;
  }
  
- @keyframes bopB {
-   0% {
-     transform: scale(0.9);
-   }
-   80%,
-   100% {
-     transform: scale(1) rotateZ(-3deg);
-   }
+ span:first-child {
+   animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
+     alternate;
  }
+ span:last-child {
+   animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards
+     infinite alternate;
+ }
+
+
+@keyframes bop {
+ 0% {
+   transform: scale(0.9);
+ }
+ 50%,
+ 100% {
+   transform: scale(1);
+ }
+}
+
+@keyframes bopB {
+ 0% {
+   transform: scale(0.9);
+ }
+ 80%,
+ 100% {
+   transform: scale(1) rotateZ(-3deg);
+ }
+}
+
+ 
+  .button{
+    margin-top:100px;
+    padding: 5px 15px;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;;
+    margin-left:40px;
+  
+
+  }
+
+
  
 
  h4{
+   margin-top:150px;
    font-size: 50px;
    font-family: 'Righteous', cursive;
+   color: #122761;
 
  }
 
-h4{
-  font-size: 30px;
-}
 
 
  #info{
-   
+  
   line-height: 0.2;
-   font-size: 40px;
+   font-size: 50px;
    font-family: 'Righteous', cursive;
-   color: white;
-   text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
-     0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
-     0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
-     -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
-     
+   color:#D8BFD8;
+   
  }
 
  #city {
@@ -131,8 +111,8 @@ h4{
    grid-gap:10px;
    font-size: 20px;
    box-sizing: border-box;
-   margin-bottom:40px;
-   margin-left:40px;
+   margin-left:60px;
+   
   
  }
 
@@ -142,16 +122,46 @@ h4{
    height: 500px;
    margin: auto;
    margin-top: 30px;
+   margin-left: 50px;
    
    
+ }
+
+ #mixed-chart{
+   margin-top:80px
+   
+
+
  }
 
  p{
    font-size: 15px;
-   color: grey;
+   color: #162b6a;
  }
 
  h2{
    font-size: 20px;
-   color:grey
+   color:#162b6a;
  }
+
+
+
+ @media only screen and (max-width:700px){
+  .main{
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto;
+      text-align: center;
+      width: 450px;
+      margin: auto;
+
+      
+  }
+  .wrapper{
+    width: 370px;
+    height: 370px;
+     margin: auto;
+
+  }
+
+}

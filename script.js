@@ -11,6 +11,7 @@
     var key = '40fa2b86a012472b917084a043e9cbd1';
     var city = document.getElementById("text").value;
    
+   
     
     fetch('https://api.weatherbit.io/v2.0/forecast/daily?city=' + city +'&key='+ key)
      
@@ -23,12 +24,18 @@
         //getting today/now forecast
             var today = data.data[0].temp;
             var info =  data.data[0].weather.description;
+           
+          
+
             console.log(info);
 
             console.log (today);
+
             document.getElementById("output").innerHTML =  city ;
             document.getElementById("info").innerHTML =  `${today}°c `;
             document.getElementById("info2").innerHTML= info ;
+          
+            
 
         
             //getting 5days forecast
@@ -68,7 +75,7 @@
           datasets: [{
               label: "5 Days Weather",
               type: "line",
-              borderColor: "#00FFFF",
+              borderColor: "#DDA0DD	",
               data: [dayOne,dayTwo,dayThree,dayFour,dayFive],
               fill: false
             }
@@ -77,7 +84,7 @@
         options: {
           title: {
             display: true,
-            text: 'Chart 5 days Weather'
+            text: 'The 5 days Weather'
           },
           legend: { display: false }
         }
