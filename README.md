@@ -21,9 +21,11 @@ In this challenge you will use and consolidate your knowledge on:
 
 
 
-Tech
+## TOOLS
 Made with Visual Studio Code
-
+HTML , CSS & Vanilla Javascript
+API: https://www.weatherbit.io/
+Chart: Chart.js
 
 
 Result
