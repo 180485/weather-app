@@ -22,11 +22,11 @@ In this challenge you will use and consolidate your knowledge on:
 
 
 ## TOOLS
-Made with Visual Studio Code
-HTML , CSS & Vanilla Javascript
-API: https://www.weatherbit.io/
-Chart: Chart.js
+* Made with Visual Studio Code
+* HTML , CSS & Vanilla Javascript
+* API: https://www.weatherbit.io/
+* Chart: Chart.js
 
 
-Result
+# Result
 https://180485.github.io/weather-app/
