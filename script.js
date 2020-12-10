@@ -41,8 +41,8 @@
 
         
             //getting 5days forecast
-            var dayOne = data.data[1].temp;
-            var dayTwo = data.data[2].temp;
+            var dayOne  = data.data[1].temp;
+            var dayTwo  = data.data[2].temp;
             var dayThree = data.data[3].temp;
             var dayFour = data.data[4].temp;
             var dayFive = data.data[5].temp;
@@ -94,9 +94,7 @@
     
        
            
-     
 
-   
 
  })
 
