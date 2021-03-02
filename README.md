@@ -29,4 +29,9 @@ In this challenge you will use and consolidate your knowledge on:
 
 
 # Result
-https://180485.github.io/weather-app/
+https://ismiandhyka18.github.io/weather-app/
+
+# Live Demo :movie_camera:
+![](Weather.gif)
+
+
