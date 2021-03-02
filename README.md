@@ -32,6 +32,6 @@ In this challenge you will use and consolidate your knowledge on:
 https://ismiandhyka18.github.io/weather-app/
 
 # Live Demo :movie_camera:
-![](Weather.gif)
+![](weather.gif)
 
 
